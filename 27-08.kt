@@ -7,7 +7,7 @@ fun main(args:Array<String>) {
     }
     return n * factorial(n - 1)
 }
-    val num1 = 5 
+    val num1 = 12 
     println("Factorial of $num1 is ${factorial(num1)}")
 
 
@@ -22,7 +22,7 @@ fun sum(n: Int): Int {
     return n + sum(n - 1)
 }
 
-    val num2 = 5 
+    val num2 = 15 
     println("Sum of numbers from 1 to $num2 is ${sum(num2)}")
 
 
@@ -46,7 +46,7 @@ fun sum1(n: Int): Int {
 }
 
 
-    val num3 = 10 
+    val num3 = 40 
     println("Sum of even numbers from 1 to $num3 is ${sum1(num3)}")
 
 
@@ -62,11 +62,9 @@ class Person(val name: String, val age: Int) {
 }
 
 
-    // Create two objects of the Person class with different parameters
-    val person1 = Person("Alice", 30)
-    val person2 = Person("Bob", 25)
+    val person1 = Person("Ajay", 45)
+    val person2 = Person("Vijay", 25)
 
-    // Display the information of both persons
     person1.displayInfo()
     person2.displayInfo()
 }
